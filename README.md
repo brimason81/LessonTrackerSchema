@@ -5,6 +5,9 @@ This repo outlines the schema for LessonTracker 3.0
 
 Table of Contents
 
+- [Users](#users)
+- [User Profiles](#user-profiles)
+
 - [Lessons](#lessons)
 - [Lesson Students](#lesson-students)
 
@@ -14,6 +17,29 @@ Table of Contents
 - [Instruments](#instruments)
 - [Student Instruments](#student-instruments)
 
+
+<a id="users"></a>
+## Users
+> I think to differentiant 'teachers' and 'students' there can be a `userType` field
+> For this 'user' table, keep only account/login/security stuff here. Profile / viewable data should be kept on the profile.
+
+```javascript
+{
+  userId: number,
+  createdAt: Date
+}
+```
+
+<a id="user-profiles"></a>
+## User Profiles
+> This separate table for the profile hold all viewable data
+
+```javascript
+{
+  userId: string,
+  name: string,
+}
+```
 
 <a id="lessons"></a>
 ## Lessons 
