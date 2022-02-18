@@ -7,6 +7,7 @@ Table of Contents
 
 - [Lessons](#lessons)
 - [Lesson Students](#lesson-students)
+
 - [Assignments](#assignments)
 - [Student Assignments](#students-assignments)
 
@@ -40,6 +41,28 @@ Table of Contents
 }
 ```
 
+<a id="assignments"></a>
+## Assignments
+
+> Are assignments associated with lesson(s)?
+> What will the teacher user see?
+
+
+```
+{
+}
+```
+
+<a id="student-assignments"></a>
+## Student Assignment
+
+- Will there be a date to track when the student viewed their assignment?
+- Can a single assignement be given to multiple students that belong to differnet lessons?
+
+```
+{
+}
+```
 
 <a id="instruments"></a>
 ## Instruments
