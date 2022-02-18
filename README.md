@@ -44,7 +44,6 @@ Table of Contents
 <a id="lessons"></a>
 ## Lessons 
 
-
 ```javascript
 {
   lessonId: number,
@@ -108,6 +107,6 @@ Table of Contents
 {
   instrumentId: number,
   studentId: number,
-  experienceYears: number
+  experienceLevel: string,  // "novice" | "beginner" | "intermediate" | "skilled" | "expert"
 }
 ```
