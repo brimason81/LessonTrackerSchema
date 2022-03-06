@@ -50,7 +50,7 @@ Table of Contents
   teacherId: number,
   startTime: Date,
   duration: number, // durationMinutes ( 30 ) ? durationHours ( 0.5 )?
-  description: string
+  description: string,
 
   createdAt: Date,
 }
@@ -84,8 +84,12 @@ Table of Contents
 - Will there be a date to track when the student viewed their assignment?
 - Can a single assignement be given to multiple students that belong to differnet lessons?
 
-```
+```javascript
 {
+  assignmentId: number,
+  studentId: number,
+  teacherId: number,
+
 }
 ```
 
@@ -95,7 +99,7 @@ Table of Contents
 ```javascript
 {
   instrumentId: number,
-  name: string    // "guitar", "bass guitar", "piano", etc
+  name: string,    // "guitar", "bass guitar", "piano", etc
 }
 ```
 
