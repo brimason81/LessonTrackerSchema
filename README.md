@@ -90,6 +90,10 @@ Table of Contents
   studentId: number,
   teacherId: number,
 
+  dateAssigned: Date,
+  dateViewed: Date,
+  dateCompleted: Date // where applicable 
+
 }
 ```
 
