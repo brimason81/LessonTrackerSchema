@@ -73,8 +73,13 @@ Table of Contents
 > What will the teacher user see?
 
 
-```
+```javascript
 {
+  assignmentId:  number,
+  instrumentId: number,
+  teacherId: number,
+  assignmentVideo: longblob, // video
+  assignmentForm: blob,  // for quiz-type assignments - not sure how to store
 }
 ```
 
@@ -88,7 +93,6 @@ Table of Contents
 {
   assignmentId: number,
   studentId: number,
-  teacherId: number,
 
   dateAssigned: Date,
   dateViewed: Date,
